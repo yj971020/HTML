@@ -1,0 +1,21 @@
+!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge ">
+    <meta name="viewport " content="width=divice-width,initial-scale=a.0">
+    <title> 로컬 스토리지 (local storage)를 저장하는 함수</title>
+   </head>
+   <body>
+       <h3>로컬 스토리지 저장하는 함수: </h3>
+       <!--pre :작성한 내용 그대로 웹 브라우저에 표출하는 태그-->
+        <pre>
+            function savethelocal(){
+                var second=document.getElementById("second");
+                var thevalue=second.value;
+                localStorage.setItem(1,thevalue);
+                getthLocal();
+            }
+        </pre>
+   </body>
