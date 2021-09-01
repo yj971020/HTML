@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge ">
+    <meta name="viewport " content="width=divice-width,initial-scale=a.0">
+    <title>텍스트 그림자</title>
+   <style>
+body{
+    border-color: black;
+}
+h1{
+    font-size: 80px;
+    font-family: 'Arial Rouned MT';
+    letter-spacing: 4px;
+}
+.shadow1 {
+    color: black;
+    /*그림자를 여러개 생성하여 불 타는 효과 생성*/
+    text-shadow:0 0 4px white,0 -5px 4px yellow, 2px -10px 6px yellow,
+    -2px -15px 6px orange  , 2px -19px 18px red
+    ; /*오른쪽 아래에 글자색과 동일한 그림자 생성*/
+}
+
+   </style>
+</head>
+    <body>
+<h1 class="shadow1">세계 3대 미향</h1>
+
+</body>
+</html>

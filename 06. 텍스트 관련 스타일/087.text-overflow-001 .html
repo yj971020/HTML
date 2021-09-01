@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge ">
+    <meta name="viewport " content="width=divice-width,initial-scale=a.0">
+    <title> 텍스트 넘침 조절</title>
+   <style>
+    .content{
+        border: 1px solid #ccc; /*테두리*/
+         width: 300px; /*단락의 너비*/
+        white-space: nowrap; /*줄바꿈 없음*/
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+    .content:hover{
+        overflow:visible; /*넘치는 부분 보여줌 */
+    }
+   </style>
+</head>
+    <body>
+      
+        <p class="content">Integer elementum massa ata nulla placerat varius.
+            suspendisse in libero risus , in interdum massa. 
+            vesribulum acleo vitae metys faucibus gravida ac in neque.
+            nullam est eros , suscipit sed dictum quis , accumsan a ligula. 
+        </p>
+     
+        </body>
+</html>
