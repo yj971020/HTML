@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge ">
+    <meta name="viewport " content="width=divice-width,initial-scale=a.0">
+    <title> 배경 위치 지정</title>
+   <style>
+     div{
+         position: relative;
+         left: 20%;
+        height: auto;
+         width: 60%;
+         padding: 10px;
+         border:1px solid gray;
+         margin-bottom: 20px;
+        
+     }
+     #bg1
+     {
+        background-repeat: no-repeat;
+        background-image: url('images/bg2.jpg');
+        background-position: left top;
+        padding-top: 150px;
+     }
+     #bg2{
+        background-image: url('images/bg2.jpg');
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+
+    }
+     #bg3{
+        background-image: url('images/bg2.jpg');
+        background-repeat: repeat;
+        background-size: 50% 50%;
+        background-position: 50% 30%;
+    }
+
+    #bg4{
+        background-image: url('images/bg2.jpg');
+        background-repeat: repeat-x;
+        background-size: 150px 200px;
+        background-position: 10px 200px;
+    }
+   </style>
+</head>
+    <body>
+<div id="bg1">
+        <p >Integer elementum massa ata nulla placerat varius.
+            suspendisse in libero risus , in interdum massa. 
+            vesribulum acleo vitae metys faucibus gravida ac in neque.
+            nullam est eros , suscipit sed dictum quis , accumsan a ligula. 
+        </p>
+     </div>
+     <div id="bg2">
+        <p >
+            Integer elementum massa ata nulla placerat varius.
+            suspendisse in libero risus , in interdum massa. 
+            vesribulum acleo vitae metys faucibus gravida ac in neque.
+            nullam est eros , suscipit sed dictum quis , accumsan a ligula. 
+        </p>
+      </div>
+      <div id="bg3">
+            <p >
+                Integer elementum massa ata nulla placerat varius.
+            suspendisse in libero risus , in interdum massa. 
+            vesribulum acleo vitae metys faucibus gravida ac in neque.
+            nullam est eros , suscipit sed dictum quis , accumsan a ligula.
+</div>
+
+<div id="bg4">
+    <p >
+        Integer elementum massa ata nulla placerat varius.
+    suspendisse in libero risus , in interdum massa. 
+    vesribulum acleo vitae metys faucibus gravida ac in neque.
+    nullam est eros , suscipit sed dictum quis , accumsan a ligula.
+</div>
+        </body>
+</html>

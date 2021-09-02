@@ -1,0 +1,42 @@
+ <!DOCTYPE html>
+    <html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge ">
+        <meta name="viewport " content="width=divice-width,initial-scale=a.0">
+        <title>선형 그라데이션 </title>
+       <style>
+          div{
+              width: 500px;
+              height: 300px;
+              /*테두리 모서리 부분을 둥글게 만듬*/
+              border-radius: 10px;
+          }
+          .grad1{
+                background: red;
+              /*구형브라우져*/
+              background: -webkit-radial-gradient(white,yellow,red); 
+                background: -moz-radial-gradient(white,yellow,red);
+                background: -o-radial-gradient(bowhite,yellow,redf);
+            /*모던 브라우저*/
+                background:radial-gradient(white,yellow,red);
+            }
+
+            .grad2{
+                background: red;
+              /*구형브라우져*/
+              background: -webkit-radial-gradient(circle,white,yellow,red); 
+                background: -moz-radial-gradient(circle,white,yellow,red);
+                background: -o-radial-gradient(circle,white,yellow,redf);
+    /*모던 브라우저*/
+                background:radial-gradient(circle,white,yellow,red);
+            }
+       </style>
+    </head>
+        <body>
+<div class="grad1"></div>
+<div class="grad2"></div>
+    </body>
+    </html>
+    ```

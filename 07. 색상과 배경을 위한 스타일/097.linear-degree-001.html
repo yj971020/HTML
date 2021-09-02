@@ -1,0 +1,32 @@
+ <!DOCTYPE html>
+    <html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge ">
+        <meta name="viewport " content="width=divice-width,initial-scale=a.0">
+        <title>선형 그라데이션 </title>
+       <style>
+          div{
+              width: 500px;
+              height: 300px;
+              /*테두리 모서리 부분을 둥글게 만듬*/
+              border-radius: 10px;
+          }
+          .grad{
+              /*45도 오른쪽 위 방향으로, 빨간색에서 흰색으로 그라데이션 효과 발생*/
+              background: #ff0000;
+              /*구형브라우져*/
+              background: -webkit-linear-gradient(45deg,#ff0000,#ffffff); 
+                background: -moz-linear-gradient(45deg, #ff0000,#ffffff);
+                background: -o-linear-gradient(45deg, #ff0000,#ffffff);
+              /*모던 브라우저*/
+                background:linear-gradient(45deg, #ff0000,#ffffff);
+            }
+       </style>
+    </head>
+        <body>
+<div class="grad"></div>
+    </body>
+    </html>
+    ```

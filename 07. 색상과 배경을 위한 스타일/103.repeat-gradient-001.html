@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+    <html lang="ko">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge ">
+        <meta name="viewport " content="width=divice-width,initial-scale=a.0">
+        <title>선형 그라데이션 반복 </title>
+       <style>
+       div{
+         width: 500px;
+         height: 300px;
+         border-radius: 10px;
+         margin: 10px;
+       }
+   
+.grad1{
+                background: red;
+              /*구형브라우져*/
+              background: -webkit-repeating-linear-gradient(yellow,red 20px); 
+                background: -moz-repeating-linear-gradient( yellow,red 20px);
+                background: -o-repeating-linear-gradient(yellow,red 20px);
+    /*모던 브라우저*/
+                background:repeating-linear-gradient(yellow,red 20px);
+            }
+               
+       </style>
+    </head>
+        <body>
+
+  <div class="grad1"></div>
+
+
+
+    </body>
+    </html>
