@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>표만들기 </title>
+    <style>
+        th {
+           background-color:  blanchedalmond;;
+            width: 80px;
+            padding: 15px;
+            /* 셀 테두리와 내용 사이의 간격*/
+        }
+    table,td,th{
+        border: 1px solid black;
+    }
+    </style>
+</head>
+
+<body>
+    <table border="1">
+        <caption>1인당 연간 설탕 소비량(단위:kg)
+        </caption>
+        <colgroup>
+            <col style="width:200px;">
+            <col style="width:100px;">
+        </colgroup>
+        <tr>
+            <th>WHO권장량</th>
+            <td>18.25</td>
+        </tr>
+        <tr>
+            <th>한국</th>
+            <td>22</td>
+        </tr>
+        <tr>
+            <th>중국</th>
+            <td>25</td>
+        </tr>
+        <tr>
+            <th>싱가포르</th>
+            <td>58</td>
+        </tr>
+        <tr>
+            <th>미국</th>
+            <td>33</td>
+        </tr>
+        <tr>
+            <th>브라질</th>
+            <td>69</td>
+        </tr>
+       <tfoot>
+        <tr>
+            <th>세계 평균</th>
+            <td>23</td>
+        </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
